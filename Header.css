@@ -1,0 +1,47 @@
+header {
+  overflow: hidden;
+}
+
+header nav a {
+  margin: 30px 15px;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header nav a.nav-link {
+  color: white;
+}
+
+header .app {
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0 15px;
+  color: #999;
+  position: relative;
+}
+
+header .app span.label {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.nav-text{
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 1);
+}
+
+.nav-text:hover{
+
+  color: rgba(245,54,114,1);
+  text-shadow: 2px 2px 0px rgba(0,0,0,, 1);
+}

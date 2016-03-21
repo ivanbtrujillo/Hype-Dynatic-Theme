@@ -1,0 +1,96 @@
+html,
+body,
+#root,
+.full-height {
+  height: 100%;
+}
+
+.background-image{
+  background: url('https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=397748b364ae83030ea277f50a0bd018') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*
+iframe {
+  border: none;
+}
+
+.centered-wrap {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.color-grey {
+  color: #999;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.decorator-loading {
+  background: linear-gradient(45deg, #fb9797, #fde0a5, #9fffd5, #92bbff);
+  background-size: 800% 800%;
+  animation: Gradient 59s ease infinite;
+}
+
+@keyframes Gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 51%; }
+  100% { background-position: 0% 50%; }
+}
+*/
+
+.fullscreen {
+  min-height: 100%;
+  position: relative;
+}
+.main{
+  margin-top:10%;
+}
+
+.main-text {
+  text-shadow: 2px 2px 0px rgba(0,0,0, 1);
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+
+.post-title-header{
+  text-align: center;
+}
+
+.gradient-color {
+
+  color: rgba(73,155,234,1);
+color: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+color: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+color: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+color: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+color: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+color: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+
+}
+.transparency-03{
+  background: rgba(0,0,0,0.3);
+}
+
+.slogan-text{
+  color:white;
+  text-shadow: 2px 2px 10px rgba(0,0,0, 1);
+  font-size: 1.8em;
+  font-weight: 200;
+  margin-left:10%;
+  margin-right: 10%;
+}
